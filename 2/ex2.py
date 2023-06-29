@@ -6,5 +6,5 @@ for i in spisok:
         big = i
 
 
-print(f"Наибольшее число: {big}" ,)
+print(f"Наибольшее число: {big}")
 
