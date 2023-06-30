@@ -13,5 +13,5 @@ big = spisok[0]
 for i in spisok:
     if i > big:
         big = i
-print(f"Наибольшее число: {big}" ,)
+print(f"Наибольшее число: {big}")
 
