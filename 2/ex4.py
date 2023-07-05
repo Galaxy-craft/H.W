@@ -12,6 +12,5 @@ try:
             spisok.append(i)
         else:
             print(i)
-
 except:
     print('Введите число!')
