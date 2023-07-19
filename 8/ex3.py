@@ -1,16 +1,16 @@
-def check_password(passw):
+def check_password(password):
     # zagl = False
     # nij = False
     # number = False
     # length = False
-    password = []
-    if len(passw) >= 8:
-        if passw.isupper():
+    # password = []
+    if len(password) >= 8:
+        if password.isupper():
             return False
-        elif passw.islower():
+        elif password.islower():
             return False
         else:
-            if passw.isdigit():
+            if password.isdigit():
                 return False
             else:
                 return True
